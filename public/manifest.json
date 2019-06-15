@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "NoComment",
-  "description": "NoComment removes social comment from yahoo japan",
+  "description": "NoComment removes social comment from Web pages.",
   "version": "0.1",
 
   "options_ui": {
