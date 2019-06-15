@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 
 const App = () => {
   return (
-    <>
-      <h2>NoComment</h2>
-      <p>removes yahoo comment from news.yahoo.co.jp</p>
-    </>
+    <div style={{ minWidth: '300px' }}>
+      <h4>NoComment <small>removes social comments.</small> </h4>
+      <p>Get away from grumpy stuff. Live kindly!</p>
+    </div>
   );
 };
 
