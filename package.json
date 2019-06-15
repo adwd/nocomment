@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-typescript-starter",
-  "version": "1.0.0",
-  "description": "chrome-extension-typescript-starter",
+  "name": "nocomment",
+  "version": "0.1.0",
+  "description": "A Chrome extension to remove social comment",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
@@ -10,10 +10,6 @@
   },
   "author": "",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
-  },
   "dependencies": {
     "jquery": "~3.4.0",
     "moment": "~2.24.0"
