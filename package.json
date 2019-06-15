@@ -6,21 +6,30 @@
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "prettier": "prettier --write \"{src,public,webpack}/**/*.{js,ts,tsx,json,html}\""
   },
-  "author": "",
+  "author": "@adwd",
   "license": "MIT",
   "dependencies": {
     "jquery": "~3.4.0",
-    "moment": "~2.24.0"
+    "moment": "~2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
     "@types/chrome": "~0.0.86",
     "@types/jquery": "~3.3.29",
+    "@types/moment": "^2.13.0",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.3",
     "rimraf": "^2.6.3",
-    "ts-loader": "~6.0.2",
-    "typescript": "~3.5.2",
     "webpack": "~4.34.0",
     "webpack-cli": "~3.3.4",
     "webpack-merge": "~4.2.1"
