@@ -12,7 +12,7 @@
   "author": "@adwd",
   "license": "MIT",
   "dependencies": {
-    "jquery": "~3.4.0",
+    "jquery": "~3.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
